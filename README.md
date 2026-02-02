@@ -44,17 +44,17 @@ According to Apple's documentation, `isiOSAppOnVision`:
 
 ## Screenshots
 
-| Mac (Designed for iPad)              | Vision Pro (Designed for iPad)                 |
-| ------------------------------------ | ---------------------------------------------- |
-| ![Mac (Designed for iPad)][mac-ipad] | ![Vision Pro (Designed for iPad)][vision-ipad] |
+| Mac (Designed for iPad)                                                                                                                                   | Vision Pro (Designed for iPad)                                                                                                                                            |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Mac (Designed for iPad)](<https://raw.githubusercontent.com/RabinApps/is_ios_app_on_mac/refs/heads/main/screenshots/Mac%20(Designed%20for%20iPad).png>) | ![Vision Pro (Designed for iPad)](<https://raw.githubusercontent.com/RabinApps/is_ios_app_on_mac/refs/heads/main/screenshots/Vision%20Pro%20(Designed%20for%20iPad).png>) |
 
-| iPad          | macOS           |
-| ------------- | --------------- |
-| ![iPad][ipad] | ![macOS][macos] |
+| iPad                                                                                                        | macOS                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| ![iPad](https://raw.githubusercontent.com/RabinApps/is_ios_app_on_mac/refs/heads/main/screenshots/iPad.png) | ![macOS](https://raw.githubusercontent.com/RabinApps/is_ios_app_on_mac/refs/heads/main/screenshots/macOS.png) |
 
-| iPhone            | Android             |
-| ----------------- | ------------------- |
-| ![iPhone][iphone] | ![Android][android] |
+| iPhone                                                                                                          | Android                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| ![iPhone](https://raw.githubusercontent.com/RabinApps/is_ios_app_on_mac/refs/heads/main/screenshots/iPhone.png) | ![Android](https://raw.githubusercontent.com/RabinApps/is_ios_app_on_mac/refs/heads/main/screenshots/Android.png) |
 
 ## Usage
 
@@ -66,12 +66,3 @@ final isOnMac = await IsIosAppOnMac.isiOSAppOnMac()
 final isOnVisionOS = await IsIosAppOnMac.isiOSAppOnVision()
 
 ```
-
-<!-- Screenshot Links -->
-
-[mac-ipad]: screenshots/Mac%20(Designed%20for%20iPad).png
-[vision-ipad]: screenshots/Vision%20Pro%20(Designed%20for%20iPad).png
-[iphone]: screenshots/iPhone.png
-[android]: screenshots/Android.png
-[ipad]: screenshots/iPad.png
-[macos]: screenshots/macOS.png
