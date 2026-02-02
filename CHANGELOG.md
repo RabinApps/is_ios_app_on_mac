@@ -1,3 +1,7 @@
+## 0.1.1
+
+- Fixed screenshots on pub.dev
+
 ## 0.1.0
 
 - **Breaking Change:** Dropped support for iOS 12 and below
